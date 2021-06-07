@@ -22,3 +22,5 @@ def test_6_generate_prime_factors():
     assert prime.generate_prime_factors(6) == [2, 3]
 def test_7_generate_prime_factors():
     assert prime.generate_prime_factors(8) == [2, 2, 2]
+def test_8_generate_prime_factors():
+    assert prime.generate_prime_factors(9) == [3,3]
