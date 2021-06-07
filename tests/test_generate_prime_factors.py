@@ -16,3 +16,5 @@ def test_3_generate_prime_factors():
 def test_4_generate_prime_factors():
     """ Pass with correct factors """
     assert prime.generate_prime_factors(3) == [3]
+def test_5_generate_prime_factors():
+    assert prime.generate_prime_factors(4) == [2, 2]
